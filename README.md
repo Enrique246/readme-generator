@@ -26,37 +26,31 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 - What did you learn?
-  - Fetch in JavaScript
-  - Proper usage and structure of ".appendChild"
-  - Usage of classList in JavaScript combined with Bootstrap
-  - Button usage
-  - Displaying and removing information depending on the users input
-  - Displaying cards with different information
+  - File system in Node.js
+  - How to use WriteFile
+  - Module exporting
+  - How incredible is the module exporting property.
+  - Generate markdowns is another way of creating sections.
+
 ### Lenguages Required:
-- HTML
-- CSS
+- Node.js
 - JavaScript
-- Bootstrap
-- Moment
 
 ## Usage
 
-![Watch Video]("https://drive.google.com/file/d/10L-pYUyET8Sp_T7xqdnzcQ64m_8yx4Br/view")
+[Watch Video](https://drive.google.com/file/d/10L-pYUyET8Sp_T7xqdnzcQ64m_8yx4Br/view)
 
 ## Resources
-- https://momentjs.com/docs/
-- https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
-- https://getbootstrap.com/docs/5.0/components/list-group/
-- https://openweathermap.org/weather-data
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+- https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+- https://www.youtube.com/watch?v=eS0b1pbjl2U
+- https://www.markdownguide.org/cheat-sheet/
 
 ## Credits
 - Enrique Del Castillo Chávez
 
 ## Tests
-- Search button working
-- Current weather displaying correctly
-- 5-day forecast box working
-- Recent search history displaying correctly.
-
-[Link to homework website](https://enrique246.github.io/weather-dashboard/ "Weather-Dashboard")
+- Prompt works when called
+- Sections display correctly
+- Links work
+- Badge is showing
+- Table of contents links work
