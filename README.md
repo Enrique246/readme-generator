@@ -6,7 +6,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What was your motivation?
   - Learning how to use Node.js.
 - Why did you build this project?  
-  - To know Node.js by getting my hands dirty and doing proof and error.
+  - To know Node.js by getting my hands dirty and doing proof and error to learn more every day.
 - What problem does it solve?
 ```md
 GIVEN a weather dashboard with form inputs
