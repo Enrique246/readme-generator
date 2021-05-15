@@ -4,9 +4,9 @@
 ### Description
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 - What was your motivation?
-  - Learning how to get a complete app up and running.
+  - Learning how to use Node.js.
 - Why did you build this project?  
-  - To build a project that is the vivid example of a real work request I would get in a real job.
+  - To know Node.js by getting my hands dirty and doing proof and error.
 - What problem does it solve?
 ```md
 GIVEN a weather dashboard with form inputs
