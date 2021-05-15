@@ -62,7 +62,6 @@ const questions = [
 // Function init section
   function init() {
     return inquirer.prompt(questions);
-
   };
 
   //Writ to File function
