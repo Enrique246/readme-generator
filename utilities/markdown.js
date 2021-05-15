@@ -34,7 +34,7 @@ const cUsage = (usage) => {
     return `${usage}}`
 };
 const cInstallation = (installation) => {
-   return `${installation}}`
+   return `${installation}`
  };
 
 const cQuestions = (email, github, repo) => {
@@ -43,6 +43,9 @@ const cQuestions = (email, github, repo) => {
     } else {
         return '';
     }
+};
+const cTests = (tests)=>{
+    return `${tests}`
 };
 
 // TODO: Create a function that returns the license link
@@ -75,18 +78,14 @@ function generateMarkdown(data) {
             header: 'Contributors', 
             content: data.contributors 
         },
-        // {
-        //     header: 'Tests',
-        //     content: createTest(data.tests)
-        // },
+        {
+            header: 'Tests',
+            content: cTests(data.tests)
+        },
         {
             header: 'Questions',
             content: cQuestions(data.questions, github, repo)
         },
-        // {
-        //     header: 'Credits',
-        //     content: createCredits(data.credits)
-        // },
     ];
 
     

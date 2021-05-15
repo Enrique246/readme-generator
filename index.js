@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require ('./utilities/markdown')
-//const { table } = require('node:console');
 
 const questions = [
     {
@@ -31,12 +30,6 @@ const questions = [
       message: 'What is the description?',
       name: 'description',
     },
-    // {
-    //   type: 'input',
-    //   message: 'Include a table of contents?',
-    //   name: 'tableofC1',
-
-    // },
     {
         type: 'input',
         message: 'Any installation requirements?',
@@ -58,37 +51,13 @@ const questions = [
         message: 'Who where your contributors?',
         name: 'contributors',
       },
+      {
+        type: 'input',
+        message: 'Did you made any tests?',
+        name: 'tests',
+      },
 
   ]
-//   .then((data) => {
-  //console.log(response)
-//   const {title, description, tableofC, tableofC2, tableofC3, installation, usage} = data;
-// const readme = 
-// `
-// # Title: ${title}
-
-// ## Description:
-//  - ${description}
-
-// ## Table of Contents
-
-// - ${tableofC} 
-
-
-// ## Installation Instruccions
-
-// - ${installation}
-
-// ## Usage
-// - ${usage}
-
-
-// `
-
-// fs.writeFile('ReadmeG.md', readme,(err) => 
-// err ? console.log(err) : console.log('Success!')
-// )
-//   });
 
   function init() {
     return inquirer.prompt(questions);
