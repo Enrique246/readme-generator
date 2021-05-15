@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require ('./utilities/markdown')
 
+// Questions Section
 const questions = [
     {
       type: 'input',
@@ -58,11 +59,13 @@ const questions = [
       },
 
   ]
-
+// Function init section
   function init() {
     return inquirer.prompt(questions);
 
   };
+
+  //Writ to File function
   function writeToFile(fileName, data) {
     fs.writeFile(`./${fileName}`, data, err => {
         if (err) {

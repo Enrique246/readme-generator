@@ -15,6 +15,7 @@ const linkLicense = license => {
     }
 };
 
+// Creating table of contents 
 const createTable = contentsArray => {
 let contList = '';
     contentsArray.forEach((item) => {
@@ -30,6 +31,8 @@ let contList = '';
     });
     return contList;
 };
+
+// Body of Table of Contents
 const cUsage = (usage) => {
     return `${usage}}`
 };
@@ -103,6 +106,7 @@ ${sectionI.content}
         }
     });
 
+// Table of Contents
   return `# ${title}
 
   ### Licence Badge:
